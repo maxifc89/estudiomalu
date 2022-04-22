@@ -1,0 +1,43 @@
+/* font-family: 'Arvo', serif;
+font-family: 'Updock', cursive; */
+
+h2 {
+color: red;
+font-family: 'Updock', cursive;
+font-size: 100px;
+
+}
+.caja{
+margin: 100px;
+width: 500px;
+height: 500;
+/* background-color: yellow; */
+background: #2a00ff;
+background: linear-gradient(18deg,#2a00ff 0%, #d2213c 80%);
+background: -webkit-linear-gradient(18deg,#2a00ff 0%, #d2213c 80%);
+background: -moz-linear-gradient(18deg,#2a00ff 0%, #d2213c 80%);
+color: white;
+padding: 20px;
+box-sizing: border-box;
+/* border-radius: 20px; */
+border-radius: 20px 0 20px 50px;
+box-shadow: 75px 49px 21px -3px rgba(0,0,0,0.67);
+-webkit-box-shadow: 75px 49px 21px -3px rgba(0,0,0,0.67);
+-moz-box-shadow: 75px 49px 21px -3px rgba(0,0,0,0.67);
+text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+column-count: 3;
+column-gap: 50px;
+column-rule: 1px solid black;
+
+}
+
+.caja p {
+    font-family: 'Arvo', serif;
+    margin: 0px;
+}
+
+.grande {
+color: blue;
+font-size: 50px;
+
+}
