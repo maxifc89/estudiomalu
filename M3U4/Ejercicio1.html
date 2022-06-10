@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="cajas">
+
+
+<div class="caja roja" onclick="cambiarfondo('red')"> </div>
+<div class="caja azul" onclick="cambiarfondo('blue')"> </div>
+<div class="caja celeste" onclick="cambiarfondo('lightblue')"> </div>
+
+
+</div>
+
+<style>
+
+.cajas{
+display: flex;    
+}  
+
+.caja {
+ width: 200px;
+ height: 200px;   
+ cursor: pointer;
+
+}
+
+.roja {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.celeste {
+    background-color: lightblue;
+}
+  
+</style>
+
+<script>
+    function cambiarfondo (color) {
+        document.querySelector ('body').style.background = color;
+    }
+</script>
+
+    
+</body>
+</html>
